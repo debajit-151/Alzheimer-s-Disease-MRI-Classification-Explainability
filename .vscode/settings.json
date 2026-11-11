@@ -1,0 +1,12 @@
+{
+  "python.defaultInterpreterPath": "C:\\Users\\debaj\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "python.analysis.extraPaths": [
+    "C:\\Users\\debaj\\AppData\\Roaming\\Python\\Python314\\site-packages",
+    "C:\\Users\\debaj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages"
+  ],
+  "python.autoComplete.extraPaths": [
+    "${workspaceFolder}",
+    "C:\\Users\\debaj\\AppData\\Roaming\\Python\\Python314\\site-packages",
+    "C:\\Users\\debaj\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages"
+  ]
+}

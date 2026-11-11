@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Caches & temporary files
+.cache/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Environments & Editor agent artifacts
+venv/
+env/
+.env
+.agents/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini

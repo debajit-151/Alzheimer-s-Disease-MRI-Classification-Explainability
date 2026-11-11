@@ -1,0 +1,94 @@
+{
+    "Custom CNN": {
+        "model_name": "Custom CNN",
+        "accuracy": 0.5421875,
+        "balanced_accuracy": 0.37009206555159335,
+        "macro_f1": 0.3471055755241845,
+        "weighted_f1": 0.5095531028742244,
+        "classification_report": {
+            "Mild_Demented": {
+                "precision": 0.3261802575107296,
+                "recall": 0.4418604651162791,
+                "f1-score": 0.37530864197530867,
+                "support": 172.0
+            },
+            "Moderate_Demented": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 15.0
+            },
+            "Non_Demented": {
+                "precision": 0.619105199516324,
+                "recall": 0.807570977917981,
+                "f1-score": 0.7008898015058179,
+                "support": 634.0
+            },
+            "Very_Mild_Demented": {
+                "precision": 0.4818181818181818,
+                "recall": 0.23093681917211328,
+                "f1-score": 0.3122238586156112,
+                "support": 459.0
+            },
+            "accuracy": 0.5421875,
+            "macro avg": {
+                "precision": 0.3567759097113089,
+                "recall": 0.37009206555159335,
+                "f1-score": 0.3471055755241845,
+                "support": 1280.0
+            },
+            "weighted avg": {
+                "precision": 0.5232580048747971,
+                "recall": 0.5421875,
+                "f1-score": 0.5095531028742244,
+                "support": 1280.0
+            }
+        }
+    },
+    "ResNet-18 (Transfer Learning)": {
+        "model_name": "ResNet-18 (Transfer Learning)",
+        "accuracy": 0.62265625,
+        "balanced_accuracy": 0.4662631426603687,
+        "macro_f1": 0.4437235807996994,
+        "weighted_f1": 0.6235885265000887,
+        "classification_report": {
+            "Mild_Demented": {
+                "precision": 0.4166666666666667,
+                "recall": 0.6395348837209303,
+                "f1-score": 0.5045871559633027,
+                "support": 172.0
+            },
+            "Moderate_Demented": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 15.0
+            },
+            "Non_Demented": {
+                "precision": 0.7567114093959731,
+                "recall": 0.7113564668769716,
+                "f1-score": 0.7333333333333333,
+                "support": 634.0
+            },
+            "Very_Mild_Demented": {
+                "precision": 0.5619047619047619,
+                "recall": 0.514161220043573,
+                "f1-score": 0.5369738339021616,
+                "support": 459.0
+            },
+            "accuracy": 0.62265625,
+            "macro avg": {
+                "precision": 0.4338207094918504,
+                "recall": 0.4662631426603687,
+                "f1-score": 0.4437235807996994,
+                "support": 1280.0
+            },
+            "weighted avg": {
+                "precision": 0.6322937390140619,
+                "recall": 0.62265625,
+                "f1-score": 0.6235885265000887,
+                "support": 1280.0
+            }
+        }
+    }
+}
